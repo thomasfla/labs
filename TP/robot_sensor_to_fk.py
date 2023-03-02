@@ -14,7 +14,7 @@ ud = SPIuDriver(absolutePositionMode=True, offsets=offsets)
 ud.transfer()
 ud.goto(pi/2,pi/2)
 ud.goto(pi/2,pi/2)
-N=30000 #30 seconds
+N=20000 #30 seconds
 t = time.perf_counter()
 ps = np.empty([N,2])
 i=0
